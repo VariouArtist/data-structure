@@ -1,7 +1,8 @@
 typedef int Rank; //秩
 #define DEFAULT_CAPACITY 8 //默认的初始容量
 
-template <typename T> class Vector //向量模板类
+template <typename T> 
+class Vector //向量模板类
 {
 protected:
 	Rank _size; //规模
